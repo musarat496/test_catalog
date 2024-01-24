@@ -6,9 +6,9 @@
         "location": "/__w/charts/charts/community/komga/1.2.7",
         "last_update": "2024-01-24 11:31:16",
         "required_features": [
-            "definitions/timezone",
             "normalize/ixVolume",
-            "normalize/acl"
+            "normalize/acl",
+            "definitions/timezone"
         ],
         "human_version": "1.10.3_1.2.7",
         "version": "1.2.7",
