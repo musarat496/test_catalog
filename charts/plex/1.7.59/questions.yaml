@@ -70,6 +70,16 @@ questions:
       type: string
       default: ""
 
+# manually added
+
+  - variable: testtext
+    label: "Test Text Field"
+    group: "Plex Configuration"
+    description: "This is to test text schema"
+    schema:
+      type: text
+      default: ""
+
   - variable: hostNetwork
     label: "Configure Host Network"
     group: "Networking"

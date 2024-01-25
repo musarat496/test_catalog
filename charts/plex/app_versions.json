@@ -3,11 +3,11 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/charts/charts/charts/plex/1.7.59",
-        "last_update": "2023-12-06 13:26:07",
+        "location": "/mnt/tank/ix-applications/catalogs/github_com_truenas_charts_git_master/charts/plex/1.7.59",
+        "last_update": "2024-01-19 04:10:32",
         "required_features": [
-            "normalize/ixVolume",
             "validations/lockedHostPath",
+            "normalize/ixVolume",
             "definitions/gpuConfiguration",
             "definitions/timezone"
         ],
@@ -232,6 +232,16 @@
                     "description": "The claim token for the server to obtain a real server token. If not provided, server is will not be automatically logged in. If server is already logged in, this parameter is ignored. You can obtain a claim token to login your server to your plex account by visiting https://www.plex.tv/claim.",
                     "schema": {
                         "type": "string",
+                        "default": ""
+                    }
+                },
+                {
+                    "variable": "testtext",
+                    "label": "Test Text Field",
+                    "group": "Plex Configuration",
+                    "description": "This is to test text schema",
+                    "schema": {
+                        "type": "text",
                         "default": ""
                     }
                 },
